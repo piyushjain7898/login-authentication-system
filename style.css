@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #333;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    /* border-radius: 2px solid black; */
+   
+    color: whitesmoke;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+input, button {
+    margin: 5px 0;
+}
